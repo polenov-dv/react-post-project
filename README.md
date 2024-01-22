@@ -33,5 +33,8 @@ npm run start:dev
 ### About page
 ![about_page](https://github.com/polenov-dv/react-post-project/assets/126477538/8277fb2b-8835-467e-8ab2-2e19286575fd)
 
+### Registration page
+![sign_page](https://github.com/polenov-dv/react-post-project/assets/126477538/8e65a43b-3545-4f58-8286-9e8a2468c81c)
+
 ### User page
 ![user_page](https://github.com/polenov-dv/react-post-project/assets/126477538/96570bd3-a02a-4581-8bff-9dfe3c9ef1a3)
