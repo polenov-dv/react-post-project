@@ -1,0 +1,1 @@
+export type typeSelectedSort = 'title' | 'description' | '';

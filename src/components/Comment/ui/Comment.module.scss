@@ -1,0 +1,44 @@
+.content {
+	display: flex;
+	min-height: 80px;
+	width: 100%;
+	border: 1px solid #7168b7;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5px;
+	width: 120px;
+	border-right: 1px solid #7168b7;
+}
+
+.user_img {
+	width: 40px;
+	height: 40px;
+
+	@media(max-width:768px) {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+.name {
+	@media(max-width:768px) {
+		font-size: 16px;
+	}
+}
+
+.comment_text {
+	width: 90%;
+	padding-left: 10px;
+	font-size: 20px;
+
+	@media(max-width:768px) {
+		font-size: 18px;
+	}
+}

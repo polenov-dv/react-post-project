@@ -1,0 +1,20 @@
+.comments_wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.comments {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 24px;
+
+	@media(max-width: 768px) {
+		font-size: 18px;
+	}
+}
+
+.new_comment {
+	display: flex;
+	justify-content: space-between;
+}

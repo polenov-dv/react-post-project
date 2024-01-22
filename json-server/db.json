@@ -1,0 +1,515 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Типы данных",
+      "description": "Number, BigInt, String, Bool, null, undefined, Symbol, Object",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "under",
+          "text": "Thanks!"
+        },
+        {
+          "user": "root",
+          "text": "dsfsd"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Метод массива arr.push(item)",
+      "description": "Добавляет элемент в конец массива",
+      "comments": [
+        {
+          "user": "under",
+          "text": "I am first!"
+        },
+        {
+          "user": "under",
+          "text": "I am second!"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Метод массива arr.pop()",
+      "description": "Извлекает элемент из конца массива",
+      "comments": []
+    },
+    {
+      "id": "4",
+      "title": "Метод массива arr.shift()",
+      "description": "Извлекает элемент из начала массива",
+      "comments": [
+        {
+          "user": "Polly",
+          "text": "Thank you very much"
+        },
+        {
+          "user": "Jack",
+          "text": "Thanks"
+        },
+        {
+          "user": "July",
+          "text": "Be happy"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Метод массива arr.unshift(item)",
+      "description": "Добавляет элемент в начало массива",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        },
+        {
+          "user": "Polly",
+          "text": "Thank you very much"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Метод массива arr.slice(start, end)",
+      "description": "Возвращает новый массив в который копирует элементы от start до end (не включая)",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Метод массива arr.splice(index, [deleteCount, item1 .... itemN])",
+      "description": "Начиная с позиции index удаляет deleteCount элементов и вставляет item1 .... itemN на их позицию",
+      "comments": []
+    },
+    {
+      "id": "8",
+      "title": "Метод массива arr.concat(arg1, arg2 ... argN)",
+      "description": "Создает новый массив в который копирует данные из других массивов и значения",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Метод массива arr.indexOf(item, from)",
+      "description": "Ищет item слева на право, начиная с позиции from и возвращает индекс элемента или -1 если элемент не найден",
+      "comments": [
+        {
+          "user": "root",
+          "text": "Excellent!"
+        },
+        {
+          "user": "user",
+          "text": "Excellent!"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Метод массива arr.lastIndexOf(item, from)",
+      "description": "Ищет item справа на лево, начиная с позиции from и возвращает индекс элемента или -1 если элемент не найден",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        },
+        {
+          "user": "Polly",
+          "text": "Thank you very much"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Метод массива arr.includes(item, from)",
+      "description": "Ищет item начиная с позиции from и возращает true если элемент найден или false если элемент отсутствует в массиве",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Метод массива arr.length = 0",
+      "description": "Очистка массива",
+      "comments": []
+    },
+    {
+      "id": "13",
+      "title": "Метод массива arr.find(funtion(item, index, array){})",
+      "description": "Выполняет поиск item по условию. Если условие выполняется (true) возвращает текущий элемент и поиск прекращается. Если все итерации ложные (false) возвращает undefined",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Метод массива arr.findIndex(funtion(item, index, array){})",
+      "description": "Выполняет поиск item по условию. Если условие выполняется (true) возвращает index на котором был найден элемент. Если все итерации ложные (false) возвращает -1",
+      "comments": []
+    },
+    {
+      "id": "15",
+      "title": "Метод массива arr.filter(funtion(item, index, array){})",
+      "description": "Возвращает массив из всех подходящих по условию элементов",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        },
+        {
+          "user": "Polly",
+          "text": "Thank you very much"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Метод массива arr.map(funtion(item, index, array){})",
+      "description": "Вызывает функцию для каждого элемента массива и возвращает массив результатов выполнения функции",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Метод массива arr.sort(funtion(item, index, array){})",
+      "description": "Сортирует массив на месте, меняя в нем порядок элементов. Возвращает отсортированный массив и изменяет исходный",
+      "comments": []
+    },
+    {
+      "id": "18",
+      "title": "Метод массива arr.revers()",
+      "description": "Меняет порядок елементов в массиве на обратный",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Метод массива arr.join(glue)",
+      "description": "Создает строку из элементов массива вставляя glue между ними",
+      "comments": []
+    },
+    {
+      "id": "20",
+      "title": "Метод массива arr.reduce(function (previousValue, item, index, array){})",
+      "description": "Функция применяется по очереди к каждому элементу массива и переносит свой результат на следующий вызов",
+      "comments": [
+        {
+          "user": "Json",
+          "text": "Hello people!"
+        },
+        {
+          "user": "Bonny",
+          "text": "Hi"
+        },
+        {
+          "user": "July",
+          "text": "Thanks"
+        },
+        {
+          "user": "Bonny",
+          "text": "Best post`"
+        },
+        {
+          "user": "Polly",
+          "text": "Thank you very much"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Создание коллекции Map",
+      "description": "let map = new Map();",
+      "comments": []
+    },
+    {
+      "id": "22",
+      "title": "Метод Map: map.set(key, value)",
+      "description": "Записывает по ключу key значение value",
+      "comments": []
+    },
+    {
+      "id": "23",
+      "title": "Метод Map: map.get(key)",
+      "description": "Возвращает значение по ключу или undefined, если ключа нет",
+      "comments": []
+    },
+    {
+      "id": "24",
+      "title": "Метод Map: map.has(key)",
+      "description": "Возвращает true, если ключ key присутствует в коллекции, иначе возвращает false",
+      "comments": []
+    },
+    {
+      "id": "25",
+      "title": "Метод Map: map.delete(key)",
+      "description": "Удаляет элемент по ключу key",
+      "comments": [
+        {
+          "user": "under",
+          "text": "I am first!"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Метод Map: map.clear()",
+      "description": "Очищает коллекцию от всех элементов",
+      "comments": []
+    },
+    {
+      "id": "27",
+      "title": "Метод Map: map.size()",
+      "description": "Возвращает текущее количество элементов",
+      "comments": []
+    },
+    {
+      "id": "28",
+      "title": "Метод Map: map.keys()",
+      "description": "Возвращает итерируемый объект по ключам",
+      "comments": []
+    },
+    {
+      "id": "29",
+      "title": "Метод Map: map.values()",
+      "description": "Возвращает итерируемый объект по значениям",
+      "comments": []
+    },
+    {
+      "id": "30",
+      "title": "Метод Map: map.entries()",
+      "description": "Возвращает итерируемый объект по парам вида [ключ, значение]",
+      "comments": []
+    },
+    {
+      "id": "31",
+      "title": "let set = new Set (iterable)",
+      "description": "Создает новый set, при наличии iterable копирует значения в set",
+      "comments": []
+    },
+    {
+      "id": "32",
+      "title": "Метод Set: set.add(value)",
+      "description": "Добавляет значение и возвращает объект set",
+      "comments": []
+    },
+    {
+      "id": "33",
+      "title": "Метод Set: set.delete(value)",
+      "description": "Удаляет значение, возвращает true,если значение было, иначе возвращает false",
+      "comments": []
+    },
+    {
+      "id": "34",
+      "title": "Метод Set: set.has(value)",
+      "description": "Возвращает true, если значение найдено, иначе возвращает false",
+      "comments": []
+    },
+    {
+      "id": "35",
+      "title": "Метод Set: set.clear()",
+      "description": "Удаляет все имеющиеся значения",
+      "comments": []
+    },
+    {
+      "id": "36",
+      "title": "Метод Set: set.size()",
+      "description": "Возвращает количество элементов в множестве",
+      "comments": []
+    },
+    {
+      "id": "37",
+      "title": "Цепочка условий ИЛИ (||)",
+      "description": "Находит первое истинное значение",
+      "comments": []
+    },
+    {
+      "id": "38",
+      "title": "Цепочка условий И (&&)",
+      "description": "Находит первое ложное значение",
+      "comments": []
+    },
+    {
+      "id": "39",
+      "title": "НЕ (!)",
+      "description": "Возвращает противоположное значение",
+      "comments": []
+    },
+    {
+      "id": "40",
+      "title": "Нулевое слияние (??)",
+      "description": "Возвращает первый аргумент, если он не равен null или undefined",
+      "comments": []
+    },
+    {
+      "id": "41",
+      "title": "Object.entries(obj)",
+      "description": "Метод создает новый map c массивом пар ключ-значение",
+      "comments": []
+    },
+    {
+      "id": "42",
+      "title": "Object.fromEntries(obj)",
+      "description": "Создает новые объект из массива пар ключ-значение (map)",
+      "comments": []
+    },
+    {
+      "id": "43",
+      "title": "Опциональная цепочка (?.)",
+      "description": "Останавливает вычисление и возвращает undefined, если часть перед ?. имеет значение null или undefined",
+      "comments": []
+    },
+    {
+      "id": "44",
+      "title": "let clone = Object.assign({}, obj)",
+      "description": "Создается новый объект clone с полями существующего объекта obj",
+      "comments": []
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userName": "user",
+      "email": "user@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "2",
+      "userName": "root",
+      "email": "root@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "3",
+      "userName": "new",
+      "email": "new@mail.ru",
+      "password": "new"
+    },
+    {
+      "id": "4",
+      "userName": "Jin",
+      "email": "jin@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "5",
+      "userName": "test",
+      "email": "test@mail.ru",
+      "password": "password"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+.modalWindow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	min-width: 600px;
+}
+
+.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media(max-width: 700px) {
+	.content {
+		min-width: 280px;
+	}
+}

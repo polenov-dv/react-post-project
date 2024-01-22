@@ -1,0 +1,9 @@
+.content {
+	padding: 3px 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.content::target {
+	border: 1px solid red;
+}

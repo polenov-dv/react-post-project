@@ -1,0 +1,1 @@
+export { PostAsync as Post } from './ui/Post.lazy';
